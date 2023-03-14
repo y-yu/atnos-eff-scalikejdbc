@@ -25,7 +25,7 @@ lazy val example = (project in file("example"))
     publishLocal := {},
     libraryDependencies ++= Seq(
       "ch.qos.logback" % "logback-classic" % "1.2.3",
-      "org.scalatest" %% "scalatest" % "3.1.1" % "test",
+      "org.scalatest" %% "scalatest" % "3.1.4" % "test",
       "com.google.inject" % "guice" % "4.2.2"
     )
   )
