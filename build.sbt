@@ -51,7 +51,7 @@ lazy val fujitaskEff = (project in file("atnos-eff-scalikejdbc"))
     libraryDependencies ++= Seq(
       "org.scalikejdbc" %% "scalikejdbc"       % "3.4.1",
       "org.scalikejdbc" %% "scalikejdbc-config" % "3.4.1",
-      "com.h2database"  %  "h2"                % "1.4.200",
+      "com.h2database"  %  "h2"                % "2.1.214",
       "org.atnos" %% "eff" % "5.7.0"
     )
   )
